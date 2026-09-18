@@ -1,0 +1,12 @@
+{
+  "name": "Repàs de sostenibilitat digital",
+  "description": "Preguntes breus per revisar hàbits digitals sostenibles.",
+  "language": "va",
+  "visibility": "public",
+  "tags": ["sostenibilitat", "competència digital"],
+  "questions": [
+    {"question": "Quina acció allarga més la vida útil d'un dispositiu?", "answers": ["Reparar-lo quan siga possible", "Canviar-lo cada any", "Deixar-lo sempre encés", "Eliminar les actualitzacions"], "correctAnswer": 0, "type": "quiz", "time": 30},
+    {"question": "Què és preferible abans de comprar un dispositiu nou?", "answers": ["Comprovar si el que tenim encara és suficient", "Triar sempre el model més car", "Comprar dos dispositius", "Ignorar el consum energètic"], "correctAnswer": 0, "type": "quiz", "time": 30}
+  ]
+}
+

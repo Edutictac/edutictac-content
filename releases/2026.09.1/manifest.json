@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026.09.1",
+  "published_at": "2026-09-18T14:12:00Z",
+  "source": "edutictac-content",
+  "items": [
+    {
+      "id": "resources:catalog",
+      "channel": "resources",
+      "title": "Catálogo público de Recursos",
+      "description": "Índice público de Recursos EduTicTac.",
+      "language": "multi",
+      "license": "mixed-public-licenses",
+      "revision": 2,
+      "artifact": {
+        "path": "resources/catalog.json",
+        "sha256": "93c4ff8e171445aeb9f778f493f0a474ca8de28a24bb218fe6864d8cbf7f4266",
+        "media_type": "application/json"
+      },
+      "metadata": {"count": 6933}
+    },
+    {
+      "id": "resources:guia-reparacio-dispositius",
+      "channel": "resources",
+      "title": "Guia breu: abans de substituir un dispositiu",
+      "description": "Activitat de reflexió sobre reparació i reutilització.",
+      "language": "va",
+      "license": "CC BY-SA 4.0",
+      "revision": 1,
+      "artifact": {
+        "path": "activities/resources/guia-reparacio-dispositius.md",
+        "sha256": "101f2f3a86142c4529dd4dd63c7f1c1d5bfc8f2370ff266c9b3ef637538b2db0",
+        "media_type": "text/markdown"
+      },
+      "metadata": {"subject": "sostenibilitat", "educational_stage": "general", "tags": ["reparació", "reutilització"]}
+    },
+    {
+      "id": "eduhoot:public-catalog",
+      "channel": "eduhoot",
+      "title": "Actividades públicas de EduHoot",
+      "description": "Catálogo público de EduHoot EduTicTac.",
+      "language": "multi",
+      "license": "mixed-public-licenses",
+      "revision": 2,
+      "artifact": {
+        "path": "eduhoot/quizzes.json",
+        "sha256": "72f3b023a6138a23ec0312a86b3e83b94bda6bda5fde0db06b26052ee3f8f3e6",
+        "media_type": "application/json"
+      },
+      "metadata": {"count": 94}
+    },
+    {
+      "id": "eduhoot:repas-sostenibilitat",
+      "channel": "eduhoot",
+      "title": "Repàs de sostenibilitat digital",
+      "description": "Preguntes breus per revisar hàbits digitals sostenibles.",
+      "language": "va",
+      "license": "CC BY-SA 4.0",
+      "revision": 1,
+      "artifact": {
+        "path": "activities/eduhoot/repas-sostenibilitat.json",
+        "sha256": "7aa8ae66558f8b1dd7785fb232f83b2acb7cc6763ca7823ec9f0aba84f7371e7",
+        "media_type": "application/json"
+      },
+      "metadata": {"subject": "competència digital", "educational_stage": "general", "tags": ["sostenibilitat"]}
+    }
+  ]
+}
+
