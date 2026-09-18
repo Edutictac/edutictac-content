@@ -1,11 +1,23 @@
 # EduTicTac Content
 
-Catálogo versionado de contenidos públicos para EduTicTac Commons.
+Catàleg de continguts educatius oberts per a EduTicTac Commons.
 
-La publicación `releases/2026.09.0/` es la primera fotografía del catálogo público actual:
+El repositori publica un `manifest.json` i els fitxers d'activitat associats.
+Commons descarrega el catàleg per canals i verifica el hash SHA-256 abans
+d'activar una còpia local.
 
-- `resources/catalog.json`: índice público de Recursos EduTicTac.
-- `eduhoot/quizzes.json`: actividades públicas de EduHoot con sus preguntas.
-- `manifest.json`: versión, canales, metadatos y hashes SHA-256.
+## Publicació local
 
-Esta primera publicación usa paquetes por canal. Las instalaciones Commons validan el manifiesto y descargan el paquete elegido; los importadores específicos de Recursos y EduHoot convertirán después esos paquetes en datos locales.
+```bash
+python3 scripts/build-manifest.py
+python3 scripts/validate-manifest.py manifest.json --check-files
+```
+
+El catàleg està pensat per servir-se com a fitxers estàtics. La URL base ha
+de contenir `manifest.json` i les rutes relatives que hi apareixen.
+
+## Llicència
+
+Els fitxers d'aquest repositori es publiquen sota CC BY-SA 4.0, excepte quan
+una fitxa indique una llicència més específica compatible.
+
