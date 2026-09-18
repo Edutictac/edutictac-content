@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026.09.0",
+  "published_at": "2026-09-18T10:42:13Z",
+  "source": "edutictac-content",
+  "items": [
+    {
+      "id": "resources:catalog",
+      "channel": "resources",
+      "title": "Catálogo público de Recursos",
+      "description": "Índice público inicial de Recursos EduTicTac.",
+      "language": "multi",
+      "license": "mixed-public-licenses",
+      "revision": 1,
+      "artifact": {
+        "path": "resources/catalog.json",
+        "sha256": "93c4ff8e171445aeb9f778f493f0a474ca8de28a24bb218fe6864d8cbf7f4266",
+        "media_type": "application/json"
+      },
+      "metadata": {
+        "count": 6933
+      }
+    },
+    {
+      "id": "eduhoot:public-catalog",
+      "channel": "eduhoot",
+      "title": "Actividades públicas de EduHoot",
+      "description": "Catálogo público inicial de EduHoot EduTicTac.",
+      "language": "multi",
+      "license": "mixed-public-licenses",
+      "revision": 1,
+      "artifact": {
+        "path": "eduhoot/quizzes.json",
+        "sha256": "72f3b023a6138a23ec0312a86b3e83b94bda6bda5fde0db06b26052ee3f8f3e6",
+        "media_type": "application/json"
+      },
+      "metadata": {
+        "count": 94
+      }
+    }
+  ]
+}
