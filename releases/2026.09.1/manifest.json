@@ -59,11 +59,10 @@
       "revision": 1,
       "artifact": {
         "path": "activities/eduhoot/repas-sostenibilitat.json",
-        "sha256": "7aa8ae66558f8b1dd7785fb232f83b2acb7cc6763ca7823ec9f0aba84f7371e7",
+        "sha256": "7e4f82b332c3f0e10b9df0edfe30f94cba61faeb3ce0f455d5cf804263c4dacf",
         "media_type": "application/json"
       },
       "metadata": {"subject": "competència digital", "educational_stage": "general", "tags": ["sostenibilitat"]}
     }
   ]
 }
-
