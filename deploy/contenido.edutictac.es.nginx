@@ -1,0 +1,23 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name contenido.edutictac.es;
+
+    root /var/www/edutictac-content;
+    default_type application/octet-stream;
+
+    location ^~ /.well-known/acme-challenge/ {
+        root /var/www/html;
+    }
+
+    location = / {
+        default_type application/json;
+        try_files /releases/latest/manifest.json =404;
+    }
+
+    location / {
+        try_files $uri =404;
+        add_header X-Content-Type-Options "nosniff" always;
+        add_header Cache-Control "public, max-age=300" always;
+    }
+}
